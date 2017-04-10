@@ -11,6 +11,13 @@ public class MethodObject {
         return result;
     }
 
+    public Result getRR(Integer id, String msg) {
+        Result result = new Result();
+        result.setId(id*id);
+        result.setMsg("get a result: org_id=" + id + ", msg=" + msg);
+        return result;
+    }
+
     public class Result {
         private int id;
         private String msg;
