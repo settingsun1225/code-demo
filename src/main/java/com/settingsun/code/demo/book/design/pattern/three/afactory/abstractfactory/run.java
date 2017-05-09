@@ -1,15 +1,15 @@
 package com.settingsun.code.demo.book.design.pattern.three.afactory.abstractfactory;
 
-import com.settingsun.code.demo.book.design.pattern.three.afactory.Maze;
-import com.settingsun.code.demo.book.design.pattern.three.afactory.MazePrint;
-import com.settingsun.code.demo.book.design.pattern.three.afactory.site.Directory;
-import com.settingsun.code.demo.book.design.pattern.three.afactory.site.basic.Door;
-import com.settingsun.code.demo.book.design.pattern.three.afactory.site.basic.Room;
+import com.settingsun.code.demo.book.design.pattern.three.afactory.basic.Maze;
+import com.settingsun.code.demo.book.design.pattern.three.afactory.core.MazePrint;
+import com.settingsun.code.demo.book.design.pattern.three.afactory.core.Directory;
+import com.settingsun.code.demo.book.design.pattern.three.afactory.basic.site.Door;
+import com.settingsun.code.demo.book.design.pattern.three.afactory.basic.site.Room;
 
 /**
  * Created by settingsun1225 on 17/5/7.
  */
-public class MazeGameAbstract {
+public class run {
 
     public static void main(String[] args) {
         MagicMazeFactory factory = new MagicMazeFactory();

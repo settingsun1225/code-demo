@@ -1,4 +1,4 @@
-package com.settingsun.code.demo.book.design.pattern.three.afactory.site.basic;
+package com.settingsun.code.demo.book.design.pattern.three.afactory.basic.site;
 
 /**
  * Created by settingsun1225 on 17/5/7.
@@ -18,8 +18,9 @@ public class Door implements MapSite {
         return (x == a) ? b : ((x == b) ? a : null);
     }
 
-    public void enter() {
-
+    @Override
+    public String view() {
+        return isOpen ? "@" : "#";
     }
 
     public boolean getIsOpen() { return isOpen;}

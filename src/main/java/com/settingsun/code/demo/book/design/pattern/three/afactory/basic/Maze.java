@@ -1,7 +1,7 @@
-package com.settingsun.code.demo.book.design.pattern.three.afactory;
+package com.settingsun.code.demo.book.design.pattern.three.afactory.basic;
 
 
-import com.settingsun.code.demo.book.design.pattern.three.afactory.site.basic.Room;
+import com.settingsun.code.demo.book.design.pattern.three.afactory.basic.site.Room;
 
 /**
  * Created by settingsun1225 on 17/5/7.
